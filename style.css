@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&display=swap');
+html{
+    box-sizing: border-box;
+}
+:root{
+    --primary-color:#6D28D9 ;
+    ;
+}
+body{
+
+font-family: 'Noto Sans JP', sans-serif;
+/* max-width: 750px; */
+text-align: center;
+margin: auto;
+word-wrap: break-word;
+line-height:1.5rem;
+}
+.navbar{
+    background-color: var(--primary-color);
+    color:white;
+    border-bottom-right-radius: 0.55rem;
+}
+ #name{
+    text-align: left;
+   
+    padding: 0.5rem;
+    font: size 1.5rem;
+    
+}
+.navbar ul{
+    list-style: none;
+    text-align: right;
+    text-decoration: none;
+  
+    padding-bottom: 1rem;
+}
+
+ .navbar li{
+
+    display: inline;
+    
+    
+    padding: .5rem;
+}
+.navbar a{
+    text-decoration: none;
+    color:white;
+}
+.about-me{
+    margin-top: 2rem;
+   
+}
+.container-center{
+    max-width: 600px;
+    margin: auto;
+}
+h1
+{
+    font-size: 2rem;
+}
+.strength {
+    list-style: none;
+  
+}
+.programming{
+    list-style: none;
+}
+  
+.other {
+    list-style: none;
+}
+h1{
+    font-size:2rem;
+    padding-top:1rem;
+}
+.skill {
+    display: flex;
+    justify-content:center;
+    line-height: 2rem;
+   
+  
+   
+}
+
+footer{
+   
+   
+}
